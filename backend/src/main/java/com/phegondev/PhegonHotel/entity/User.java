@@ -44,6 +44,11 @@ public class User implements UserDetails {
     }
 
     @Override
+    public String getPassword() {
+        return "";
+    }
+
+    @Override
     public String getUsername() {
         return email;
     }
@@ -66,5 +71,8 @@ public class User implements UserDetails {
     @Override
     public boolean isEnabled() {
         return true;
+    }
+
+    public String getRole() {
     }
 }
