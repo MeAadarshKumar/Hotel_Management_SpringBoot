@@ -74,5 +74,6 @@ public class User implements UserDetails {
     }
 
     public String getRole() {
+    return role;
     }
 }

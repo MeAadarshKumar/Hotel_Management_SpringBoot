@@ -1,6 +1,10 @@
 # Compiled class file
 *.class
 
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
 # Log file
 *.log
 
@@ -23,3 +27,19 @@
 hs_err_pid*
 replay_pid*
 .DS_Store
+
+
+# Environment files
+.env
+
+# Build directories (e.g., React, Vite)
+build/
+dist/
+# Ignore IDE workspace settings
+.vscode/
+
+# Ignore target directory and compiled class files
+/backend/target/
+
+# Ignore node module caches
+frontend/node_modules/.cache/
